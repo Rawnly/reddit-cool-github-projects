@@ -1,0 +1,31 @@
+{
+  "name": "reddit-cgp",
+  "version": "1.0.0",
+  "description": "Reddit CoolGithubProjects as an API",
+  "author": "Federico Vitale <fedevitale99@gmail.com>",
+  "repository": "Rawnly/reddit-cgp",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro",
+	"test": "xo --fix && xo && ava",
+	"dev": "micro-dev"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "got": "latest",
+    "micro": "^7.0.0"
+  },
+  "devDependencies": {
+    "async-to-gen": "^1.3.2",
+    "ava": "^0.18.1",
+    "micro-dev": "^1.3.0",
+    "test-listen": "^1.0.1",
+    "xo": "^0.17.1"
+  }
+}
