@@ -29,6 +29,20 @@ Alternative, deploy right now without even leaving the browser:
 
 [![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/Rawnly/reddit-cool-github-projects)
 
+## Sample Response
+```json
+	{
+		"len": 25,
+		"titles": [
+			//...
+			{
+				"title": "Reddit first 25 cool github projects as an API.",
+				"url": "https://github.com/rawnly/reddit-cool-github-projects"
+			},
+			//...
+		]
+	}
+```
 
 ## License
 MIT © [Federico Vitale](http://federicovitale.me)
