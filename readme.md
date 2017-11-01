@@ -1,16 +1,17 @@
-# microservice [![Build Status](https://travis-ci.org/Rawnly/microservice.svg?branch=master)](https://travis-ci.org/Rawnly/microservice)
+# Reddit Cool Github Projects API [![Build Status](https://travis-ci.org/Rawnly/reddit-cool-github-projects.svg?branch=master)](https://travis-ci.org/Rawnly/reddit-cool-github-projects)
 
-> My sublime microservice
+> Reddit first 25 cool github projects as an API
 
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/Rawnly/microservice)
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/Rawnly/reddit-cool-github-projects)
 
 
 ## Usage
 
 ```bash
-$ git clone Rawnly/microservice.git
-$ cd microservice
-$ npm start
+	$ git clone Rawnly/reddit-cool-github-projects.git
+	$ cd reddit-cool-github-projects
+	$ npm install
+	$ npm start
 ```
 
 
@@ -21,14 +22,13 @@ This microservice can be deployed to [now](https://zeit.co/now) by Zeit.
 Assuming you've got `now` installed and set up:
 
 ```bash
-$ now Rawnly/microservice
+	$ now Rawnly/reddit-cool-github-projects
 ```
 
 Alternative, deploy right now without even leaving the browser:
 
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/Rawnly/microservice)
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/Rawnly/reddit-cool-github-projects)
 
 
 ## License
-
-MIT © Federico Vitale
+MIT © [Federico Vitale](http://federicovitale.me)
